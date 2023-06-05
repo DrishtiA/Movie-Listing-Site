@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body, h1, p, input, button {
+    margin: 10;
+    padding: 10;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply basic styles to the header */
+  header {
+        background-color: #fff;
+    padding: 20px;
+    color: #333;
+    border-top: 1px solid #333; /* Add upper border */
+    border-bottom: 1px solid #333; /* Add lower border */
+  }
+  
+  header h1 {
+    display: inline-block; /* Make the header an inline block */
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #search-container {
+    display: inline-block;
+    float: right; 
+  }
+
+  #search-input {
+    border: 1px solid #070707;
+    border-radius: 4px;
+    margin-top: 9px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+ 
+  #search-button {
+     margin-top: 0px; 
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #070707 ;
+    border: 1px solid #070707;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; 
+  }
+    
+  #search-button:hover {
+    background-color: hsl(123, 12%, 30%);
+    color: white; 
+  }
+  
+  /* Apply basic styles to the movie listing */
+  #movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .movie-card p {
+    margin-top: 5px;
+    font-size: 14px;
+  } 
