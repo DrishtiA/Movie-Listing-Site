@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply basic styles to the header */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #search-container {
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  #search-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Apply basic styles to the movie listing */
+  #movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .movie-card p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
