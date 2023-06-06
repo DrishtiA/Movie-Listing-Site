@@ -51,13 +51,17 @@ header h1 {
   display: inline-block; /* Make the header an inline block */
   margin: 10px;
   font-size: 38px;
+  font-family:Trebuchet MS;
 }
 
 #search-container {
   display: inline-block;
   float: right; 
 }
-
+#icon {
+    height: 30px;
+   margin-top: 10px;
+}
 #search-input {
   border: 1px solid #070707;
   border-radius: 4px;
@@ -68,7 +72,7 @@ header h1 {
 
 
 #search-button {
-   margin-top: 0px; 
+   margin-top: 17px; 
   padding: 8px 16px;
   background-color: #fff;
   color: #070707 ;
@@ -101,6 +105,7 @@ header h1 {
 }
 
  .content {
+  font-family:Trebuchet MS;
    margin-top: 0px;
   position: fixed;
   padding: 20px;
