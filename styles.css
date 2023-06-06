@@ -1,0 +1,126 @@
+/* Reset some default browser styles */
+body, h1, p, input, button {
+    padding: 10;
+    font-family: Arial, sans-serif;
+  }
+  
+ /* CSS for the logo */
+.logo {
+  margin-top=0;
+  width: 32.42px;
+  height: 32.42px;
+  position: absolute;
+  left: 0px;
+  top: 22px;
+}
+
+.logo-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 2.84px;
+  position: absolute;
+  width: 17.07px;
+  height: 12.24px;
+  left: 7.68px;
+  top: 22px;
+}
+
+.logo-path {
+  width: 17.07px;
+  height: 12.24px;
+  background: #333;
+}
+
+  /* Apply basic styles to the header */
+  header {
+        background-color: #fff;
+    padding: 20px;
+    color: #333;
+    border-top: 1px solid #333; /* Add upper border */
+    border-bottom: 1px solid #333; /* Add lower border */
+  }
+  
+  header h1 {
+    display: inline-block; /* Make the header an inline block */
+    margin: 10px;
+    font-size: 24px;
+  }
+  
+  #search-container {
+    display: inline-block;
+    float: right; 
+  }
+
+  #search-input {
+    border: 1px solid #070707;
+    border-radius: 4px;
+    margin-top: 9px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+ 
+  #search-button {
+     margin-top: 0px; 
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #070707 ;
+    border: 1px solid #070707;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; 
+  }
+    
+  #search-button:hover {
+    background-color: hsl(123, 12%, 30%);
+    color: white; 
+  }
+  
+  #search-result {
+    margin-top: 0px; 
+   padding: 8px 16px;
+   background-color: #fff;
+   color: #070707 ;
+   border: 1px solid #070707;
+   border-radius: 4px;
+   cursor: pointer;
+   float: left; 
+   margin-bottom: 20px;
+ }
+   
+ #search-result:hover {
+   background-color: hsl(123, 12%, 30%);
+   color: white; 
+ }
+
+   .content {
+    padding: 20px;
+    background-color: #f8f4f4;
+    float: left; 
+  }
+  
+  .tab-content {
+    color:#070707;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #add {
+    margin-left: 30px; 
+   padding: 8px 16px;
+   background-color: #0c0c0c;
+   color: #f5f0f0 ;
+   border: 1px solid #070707;
+   border-radius: 4px;
+   cursor: pointer;
+   float: left; 
+   margin-bottom: 20px;
+ }
+   
+ #add:hover {
+   background-color: hsl(123, 12%, 30%);
+   color: white; 
+ }
