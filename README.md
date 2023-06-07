@@ -56,6 +56,14 @@ It also allows users to search for movies using The Movie Database (TMDb) API an
 
 4. Click the search button to fetch and display the movie results.
 
+## Video demonstration
+
+   This is the video demonstration of the site:
+   
+
+https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/ac36e8e2-6ddd-448d-9ce6-ade9f66691bc
+
+
 ## Configuration
 
 The following constants are defined in the JavaScript code and can be modified as needed:
