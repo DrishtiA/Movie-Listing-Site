@@ -15,29 +15,28 @@ It also allows users to search for movies using The Movie Database (TMDb) API an
 
 1. Layout of the Website:
    
-       ![Layout](Screenshots/Layout.png)
+      ![Layout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/ad5383e2-6b4a-4185-9109-d9d3e9c1d63d)
+
 
 2. When the cursor is placed over the box in the website, the layout undergoes a transformation to enhance interactivity and improve visual aesthetics. The following changes occur:
    a. Poster Opacity: The opacity of the movie poster decreases slightly, creating a subtle visual effect.
    b. Overview Display: A brief overview of the movie is revealed. It initially remains hidden but becomes visible when the cursor is positioned over the box.
-
-       ![Hovering layout](Screenshots/Hoveringlayout.png)
+   
+      ![Hoveringlayout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/a63a0a7d-60e7-4102-8a7b-7a4e84b662ff)
 
 3. Layout on scroll:
    The header and the sidebar remains fixed while the site is scrolled.
-
-       ![On Scroll](Screenshots/OnScroll.png)
-
-4. Searching:
-   
-       Movies can be searched by typing the name in the search bar and clicking on the submit button.
-
-       ![Searching](Screenshots/Searching.png)
        
-       Search results appear as shown
+      ![OnScroll](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/a9b270a0-725c-49f0-8b88-02efdc658a8f)
+   
+ 4. Movies can be searched by typing the name in the search bar and clicking on the submit button.
+        
+      
+![Searching](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/7c186227-5ef6-4a57-addd-a53caf0606b9)
 
-       ![Search Result](Screenshots/SearchResult.png)
+  5. Search results appear as shown
 
+        ![SearchResult](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/b097d8bb-b336-40d1-8ac3-543555f1a8ca)
 
 ## Technologies Used
 
