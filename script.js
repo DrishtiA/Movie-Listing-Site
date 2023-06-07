@@ -4,9 +4,15 @@ const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = BASE_URL + '/search/movie?' + API_KEY;
 
-async function fetchMovieData() {
+// Fetch and display movie data
+async function fetchMovieData(searchTerm = '') {
   try {
-    const response = await fetch(API_URL);
+    let url = API_URL;
+    if (searchTerm) {
+      url = searchURL + '&query=' + encodeURIComponent(searchTerm);
+    }
+
+    const response = await fetch(url);
     const data = await response.json();
     displayMovieData(data.results);
   } catch (error) {
@@ -14,11 +20,13 @@ async function fetchMovieData() {
   }
 }
 
+// Display movie data in boxes
 function displayMovieData(movies) {
   const container = document.querySelector('.container');
   container.innerHTML = '';
 
   movies.forEach((movie) => {
+    // Create box elements
     const box = document.createElement('div');
     box.classList.add('box');
 
@@ -50,13 +58,24 @@ function displayMovieData(movies) {
       }
     });
 
+    // Append elements to box
     box.appendChild(poster);
     box.appendChild(title);
     box.appendChild(overview);
 
+    // Append box to container
     container.appendChild(box);
   });
 }
+
+// Search button click event listener
+const searchButton = document.getElementById('search-button');
+const searchInput = document.getElementById('search-input');
+
+searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value.trim();
+  fetchMovieData(searchTerm);
+});
 
 // Call the fetchMovieData function to fetch and display movie data
 fetchMovieData();
