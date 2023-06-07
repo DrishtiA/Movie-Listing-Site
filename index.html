@@ -3,50 +3,49 @@
 <head>
   <title>Movie Listing Website</title>
   <link rel="stylesheet" href="styles.css">
-  
 </head>
 <body>
+
+  <!-- Header definition starts here -->
   <header>
     <img src="movie_logo.jpg" alt="Movie Logo" id="movie-logo">
     <h1>Movies</h1>
     <div id="search-container">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon">
-                <path
-                    d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-5 0A4.5 4.5 0 1 1 14 9.5a4.48 4.48 0 0 1-3.5 4.5z" />
-            </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon">
+        <path
+          d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-5 0A4.5 4.5 0 1 1 14 9.5a4.48 4.48 0 0 1-3.5 4.5z" />
+      </svg>
       <input type="text" id="search-input" placeholder="Search something">
       <button id="search-button"><b>Submit</b></button>
     </div>
   </header>
-  
-  
-  <div class="content">
+  <!-- Header definition ends here -->
+
+  <!-- Sidebar definition starts here -->
+  <nav class="sidebar">
     <div id="tab1" class="tab-content">
       <button id="home"><b>Home</b></button>
     </div>
-    <div id="tab1" class="tab-content">
-      <a href="#"class="content-headings">Movies</a>
-    </div>
-  
     <div id="tab2" class="tab-content">
+      <a href="#" class="content-headings">Movies</a>
+    </div>
+    <div id="tab3" class="tab-content">
       <a href="#" class="content-headings">TV Shows</a>
     </div>
-  
-    <div id="tab3" class="tab-content">
+    <div id="tab4" class="tab-content">
       <a href="#" class="content-headings">Popular</a>
     </div>
-    <div id="tab4" class="tab-content">
-      <a href="#" class="content-headings">Free to watch</a>
-    </div>
     <div id="tab5" class="tab-content">
-      <a href="#" class="content-headings">More</a>
+      <a href="#" class="content-headings">Free to watch</a>
     </div>
     <div id="tab6" class="tab-content">
       <button id="add"><b>+Add</b></button>
     </div>
-  </div>
-  
-  <div class="container">
+  </nav>
+  <!-- Sidebar definition ends here -->
+
+  <!-- Movie boxes definition starts here -->
+  <section class="container">
     <div class="box">Box 1</div>
     <div class="box">Box 2</div>
     <div class="box">Box 3</div>
@@ -59,7 +58,8 @@
     <div class="box">Box 10</div>
     <div class="box">Box 11</div>
     <div class="box">Box 12</div>
-</div>
+  </section>
+  <!-- Movie boxes definition ends here -->
 
   <script src="script.js"></script>
 </body>

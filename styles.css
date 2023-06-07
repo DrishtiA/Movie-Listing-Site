@@ -1,10 +1,9 @@
-/* Reset some default browser styles */
+/* Resetting some default browser styles */
 body, h1, p, input, button {
-  padding: 10;
   font-family: Arial, sans-serif;
 }
 
-/* Apply basic styles to the header */
+/* Design of header starts here */
 header {
   background-image: repeating-linear-gradient(to right, #b3b0ac, #f1ebed);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -23,14 +22,14 @@ header {
 #movie-logo {
   margin-top: 15px;
   padding: 0;
-  width: 40px; /* Set the desired width */
-  border: 1px solid #333; /* Add a border */
-  border-radius: 5px; /* Add border-radius for rounded corners */
+  width: 40px; /* Setting the desired width */
+  border: 1px solid #333; /* Adding a border */
+  border-radius: 5px; /* Adding border-radius for rounded corners */
 }
 
 header h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: inline-block; /* Make the header an inline block */
+  display: inline-block; /* Making the header an inline block */
   margin: 10px;
   font-size: 38px;
   font-family:Trebuchet MS;
@@ -52,7 +51,6 @@ header h1 {
   margin-right: 10px;
 }
 
-
 #search-button {
    margin-top: 17px; 
   padding: 8px 16px;
@@ -68,7 +66,10 @@ header h1 {
   background-color: hsl(120, 29%, 97%);
   color: rgb(14, 13, 13); 
 }
+/* Design of header ends here */
 
+
+/* Design of sidebar starts here */
 #home {
   width: 100px;
   margin-top: 0px; 
@@ -87,7 +88,7 @@ header h1 {
  color: rgb(15, 14, 14); 
 }
 
- .content {
+ .sidebar {
   background-image: repeating-linear-gradient(to right, #b3b0ac, #f1ebed);
   font-family:Trebuchet MS;
    margin-top: 0px;
@@ -130,7 +131,10 @@ color:black;
  background-color: hsl(120, 23%, 95%);
  color: rgb(15, 15, 15); 
 }
+/* Design of sidebar ends here */
 
+
+/* Design of movie boxes starts here */
 .container {
   margin-top: 150px;
   margin-left: 200px;
@@ -201,3 +205,4 @@ color:black;
   opacity: 1;
   visibility: visible;
 }
+/* Design of movie boxes ends here */
