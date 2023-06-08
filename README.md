@@ -15,28 +15,29 @@ It also allows users to search for movies using The Movie Database (TMDb) API an
 
 1. Layout of the Website:
    
-      ![Layout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/ad5383e2-6b4a-4185-9109-d9d3e9c1d63d)
+      ![Layout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/291b7620-dba2-4c2e-9012-9b80a6b594b0)
 
 
 2. When the cursor is placed over the box in the website, the layout undergoes a transformation to enhance interactivity and improve visual aesthetics. The following changes occur:
    a. Poster Opacity: The opacity of the movie poster decreases slightly, creating a subtle visual effect.
    b. Overview Display: A brief overview of the movie is revealed. It initially remains hidden but becomes visible when the cursor is positioned over the box.
    
-      ![Hoveringlayout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/a63a0a7d-60e7-4102-8a7b-7a4e84b662ff)
-
+      ![Hoveringlayout](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/2c03eb3c-0ebe-4da4-91b6-fb6f9349f2eb)
+      
 3. Layout on scroll:
    The header and the sidebar remains fixed while the site is scrolled.
        
-      ![OnScroll](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/a9b270a0-725c-49f0-8b88-02efdc658a8f)
-   
+     ![OnScroll](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/f18f390b-6097-49c5-88d9-5c6f29ed4d65)  
+     
  4. Movies can be searched by typing the name in the search bar and clicking on the submit button.
         
       
-![Searching](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/7c186227-5ef6-4a57-addd-a53caf0606b9)
-
+      ![Searching](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/8faf462f-3be0-47e8-ab97-c834b3a97f59)
+      
   5. Search results appear as shown
 
-        ![SearchResult](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/b097d8bb-b336-40d1-8ac3-543555f1a8ca)
+      ![SearchResult](https://github.com/DrishtiA/Movie-Listing-Site/assets/106471875/397d0bd5-ad1c-457b-94a8-f9eeb8bb613a)
+
 
 ## Technologies Used
 
